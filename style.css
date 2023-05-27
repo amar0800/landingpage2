@@ -1,0 +1,181 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+.main-hero-container {
+  background-color: #1f2937;
+}
+
+.hero {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  padding: 30px 30px 100px 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.hero p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 32px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover{
+    text-decoration: underline;
+}
+
+.herobottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.righthero {
+  background: url(../landingpage/images/tigerbarbs.jpg);
+  background-position-x: center;
+  background-position-y: center;
+  flex: 1.25;
+  border-radius: 10px;
+}
+
+.lefthero {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+button {
+  width: 140px;
+  padding: 10px;
+  background-color: #3882f6;
+  color: white;
+  font-weight: 900;
+  border: 0;
+  border-radius: 10px;
+}
+
+.sectiontwo-main-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+p.card-description {
+  width: 150px;
+  margin-top: 10px;
+}
+
+.sectionthree-main-container {
+  margin-top: 100px;
+  background-color: #e5e7eb;
+  padding: 100px;
+}
+
+.quote,
+.author {
+  max-width: 900px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  margin: 0 auto;
+}
+
+.author {
+  margin: 20px auto 0 auto;
+  text-align: right;
+  font-weight: 900;
+}
+
+.sectionfour-main-container {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 50px;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  align-items: flex-end;
+}
+
+.cta-text-button {
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+
+.cta-text-button p:nth-child(1) {
+  font-size: 24px;
+}
+
+.ctabutton {
+  border: 2px solid white;
+  font-weight: 900;
+  border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #1f2937;
+  color:white;
+}
