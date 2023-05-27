@@ -70,7 +70,7 @@ nav ul a:hover{
 }
 
 .righthero {
-  background: url(../landingpage/images/tigerbarbs.jpg);
+  background: url(images/tigerbarbs.jpg);
   background-position-x: center;
   background-position-y: center;
   flex: 1.25;
